@@ -13,7 +13,7 @@ st.set_page_config(page_title="Analisis dde imagen", layout="centered", initial_
 # Streamlit page setup
 st.title("Análisis de Imagen:🤖🏞️")
 st.header("Adjunta a continuación una imagen que quieras que el sistema describa e identifique. Aquí tienes un ejemplo:")
-image = Image.open('ejemplo.jpeg')
+image = Image.open('ejemplo.png')
 st.image(image, width=200)
 
 #st.write(openai.Model.list())
